@@ -24,6 +24,7 @@ The `/var/log/maillog` file must be readable by the user `netdata`.
 
 Edit the `python.d/postfix_delay.conf` configuration file to change the log file path.
 Netdata must have permission to read the file.
+
 ---
 
 
