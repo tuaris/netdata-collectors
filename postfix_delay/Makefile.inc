@@ -5,9 +5,9 @@
 # IT IS REQUIRED TO REFERENCE ALL FILES RELATIVE TO THE PARENT
 
 # install these files
-dist_python_DATA       += postfix/postfix.chart.py
-dist_pythonconfig_DATA += postfix/postfix.conf
+dist_python_DATA       += postfix_delay/postfix_delay.chart.py
+dist_pythonconfig_DATA += postfix_delay/postfix_delay.conf
 
 # do not install these files, but include them in the distribution
-dist_noinst_DATA       += postfix/README.md postfix/Makefile.inc
+dist_noinst_DATA       += postfix_delay/README.md postfix_delay/Makefile.inc
 
